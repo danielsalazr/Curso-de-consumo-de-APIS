@@ -12,3 +12,7 @@ Autenticacion en the cat API:
 
 Api key de cat api:
     -live_g2pdcoNOICzsYYYDEc98TatVCy8Oowg6DdqxicO6CON4ikgwvzPNLijW6iqJqXbc
+
+Apis para aprender en platzi:
+    -https://platzi.com/blog/la-api-para-nunca-parar-de-aprender-news/#:~:text=Platzi%20ha%20creado%20una%20API,un%20website%2C%20analizarlos%2C%20etc.
+    -https://fakeapi.platzi.com/doc/
