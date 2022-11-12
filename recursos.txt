@@ -6,3 +6,9 @@ Paginacion y orden de cat Api
 
 Http status dog
     -https://httpstatusdogs.com/
+
+Autenticacion en the cat API:
+    -https://docs.thecatapi.com/1.0/authentication
+
+Api key de cat api:
+    -live_g2pdcoNOICzsYYYDEc98TatVCy8Oowg6DdqxicO6CON4ikgwvzPNLijW6iqJqXbc

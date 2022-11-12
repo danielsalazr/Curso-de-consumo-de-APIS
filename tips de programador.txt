@@ -1,0 +1,7 @@
+Oauth2 es de las autenticaciones mas dificiles de quebrantar
+
+Alternativas de autorizacion en apis
+    Authorization: Basic
+    Authorization: Barer Token
+    OAuth 2.0 (es de las mejores y más complicadas formas de autenticar en la modernidad)
+    Access Key + Secret Key
