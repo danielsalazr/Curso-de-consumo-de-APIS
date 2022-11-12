@@ -1,0 +1,8 @@
+claves de visual studio code con atajos
+    -https://code.visualstudio.com/docs/getstarted/keybindings
+
+Paginacion y orden de cat Api
+    -https://docs.thecatapi.com/1.0/pagination
+
+Http status dog
+    -https://httpstatusdogs.com/

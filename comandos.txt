@@ -1,0 +1,3 @@
+Autenticacion en Apis
+    -Query parameter: ?apy_key=ABC123
+    -Authorization Header: X-API-Key: ABC123
