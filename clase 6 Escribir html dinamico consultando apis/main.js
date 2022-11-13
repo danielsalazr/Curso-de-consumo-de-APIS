@@ -41,28 +41,23 @@ async function loadFavoritesMichis() {
   if (res.status !== 200) {
     spanError.innerHTML = "Hubo un error" + res.status + data.message;
   } else {
-
     console.log(data);
-    const toRender = []
-    const section = document.getElementById('favoriteMichis');
-
     data.forEach( michi => {
-
-        // forma mas optimizada de agregar elementos al dom
-        
+        const section = document.getElementById('favoriteMichis');
         const article = document.createElement('article');
         const img = document.createElement('img');
         const btn= document.createElement('button');
         const btnText  = document.createTextNode('Sacar al michi de favoritos')
 
-        btn.append(btnText);
+        btn.appendChild(btnText);
         img.src = michi.image.url;
         img.width = 150
 
-        article.append(img, btn);
-        toRender.push(article)
+        article.appendChild(img);
+        article.appendChild(btn);
+        section.appendChild(article);
+
     })
-    section.append(...toRender)
   }
 
 }

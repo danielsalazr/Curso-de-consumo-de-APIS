@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Gatitos aleatorios</title>
+</head>
+<body>
+    <h1>Michis App</h1>
+
+    <span id="randomMichisError"></span>
+
+    <section id="randomMichis">
+
+        <h2>Gatitos aleatorios</h2>
+
+        <article>
+            <img width="150" src="" alt="Foto gatito aleatorio" id="img1">
+            <button id="btn1" onclick="saveFavouriteMichis()">Guardar Michi en favoritos</button>
+        </article>
+        <article>
+            <img width="150" src="" alt="Foto gatito aleatorio" id="img2">
+            <button id="btn2" onclick="saveFavouriteMichis()">Guardar Michi en favoritos</button>
+        </article>
+        </article>
+        <article>
+            <img width="150" src="" alt="Foto gatito aleatorio" id="img3">
+            <button id="btn3" onclick="saveFavouriteMichis()">Guardar Michi en favoritos</button>
+        </article>
+        </article>
+    
+        <button onclick="loadRandomMichis()">Recargar</button>       
+    </section>
+
+    <section id="favoriteMichis">
+        <img width="150" src="" alt="Foto gatito aleatorio" id="img4">
+        <button onclick="loadFavoritesMichis()">Sacar al Michi de favoritos</button>
+    </section>
+
+
+    <script src="main.js"></script>
+</body>
+</html>
