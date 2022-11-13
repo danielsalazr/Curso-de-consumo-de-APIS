@@ -5,3 +5,13 @@ Alternativas de autorizacion en apis
     Authorization: Barer Token
     OAuth 2.0 (es de las mejores y más complicadas formas de autenticar en la modernidad)
     Access Key + Secret Key
+
+
+Uso adecuado de funciones al hacer render 
+
+    si invocamos una funcion de la siguiente forma, esta se ejecuta de forma inmediata
+    mas no acorde al proposito que queremos que es al interactuar con el elemento
+        -btn1.onclick = saveFavouriteMichis(data[0].id)
+
+    para ello es importante utilizar arrow functions, con ello solucionamos la ejecucion
+    inmediata y hacemos que se ejecute solo depsues de interactuar con ele elemento
