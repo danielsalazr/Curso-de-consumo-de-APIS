@@ -16,3 +16,7 @@ Api key de cat api:
 Apis para aprender en platzi:
     -https://platzi.com/blog/la-api-para-nunca-parar-de-aprender-news/#:~:text=Platzi%20ha%20creado%20una%20API,un%20website%2C%20analizarlos%2C%20etc.
     -https://fakeapi.platzi.com/doc/
+
+Api Headers
+    -https://apipheny.io/api-headers/
+    -https://developer.mozilla.org/en-US/docs/Web/HTTP/Headers
